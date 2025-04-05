@@ -1,5 +1,4 @@
 # docs
-# docs
 # Padrões de Desenvolvimento
 
 Este documento descreve os padrões adotados pelo projeto para organização e padronização dos fluxos de trabalho com Git.
