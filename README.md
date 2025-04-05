@@ -27,3 +27,36 @@ As branches devem seguir a estrutura:
 
 > Sempre use um nome descritivo e o ID da issue relacionada no final da branch.
 
+
+---
+
+## Padrão de Commits — Conventional Commits
+
+Utilizamos o padrão **[Conventional Commits](https://www.conventionalcommits.org/)** para garantir clareza e rastreabilidade no histórico do repositório.
+
+### Estrutura do commit: 
+<tipo>: <mensagem curta>
+
+#### Tipos aceitos:
+
+| Tipo        | Descrição                                      |
+|-------------|-----------------------------------------------|
+| feat      | Nova funcionalidade                            |
+| fix       | Correção de bug                                |
+| docs      | Alterações na documentação                     |
+| style     | Ajustes de formatação (espaços, vírgulas...)   |
+| refactor  | Refatoração de código sem mudança de lógica    |
+| test      | Criação ou modificação de testes               |
+| chore     | Tarefas de build, configs, ou dependências     |
+
+### Exemplos:
+
+```bash
+feat: adicionar validação de campos obrigatórios
+fix: corrigir retorno 500 ao criar usuário
+docs: atualizar instruções de contribuição
+style: remover espaçamento desnecessário
+refactor: simplificar lógica de autenticação
+test: adicionar testes para criação de usuário
+chore: ajustar configuração do GitHub Actions
+=======
