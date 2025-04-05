@@ -27,6 +27,7 @@ As branches devem seguir a estrutura:
 
 > Sempre use um nome descritivo e o ID da issue relacionada no final da branch.
 
+
 ---
 
 ## Padrão de Commits — Conventional Commits
@@ -58,3 +59,4 @@ style: remover espaçamento desnecessário
 refactor: simplificar lógica de autenticação
 test: adicionar testes para criação de usuário
 chore: ajustar configuração do GitHub Actions
+=======
