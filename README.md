@@ -8,7 +8,9 @@ Este documento descreve os padrões adotados pelo projeto para organização e p
 ## Padrão de Branches
 
 As branches devem seguir a estrutura:
+```bash
 <tipo>/<nome-descritivo>-<id-da-issue>
+```
 
 ### Tipos válidos:
 
@@ -35,7 +37,9 @@ As branches devem seguir a estrutura:
 Utilizamos o padrão **[Conventional Commits](https://www.conventionalcommits.org/)** para garantir clareza e rastreabilidade no histórico do repositório.
 
 ### Estrutura do commit: 
+```bash
 <tipo>: <mensagem curta>
+```
 
 #### Tipos aceitos:
 
